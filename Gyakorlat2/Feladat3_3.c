@@ -2,17 +2,19 @@
 
 int main()
 {
-    int a, b , c;
+    double a, b , c;
     
     printf("\nSzamologep\n");
-    scanf("%d", &a);
-    scanf("%d", &b);
+    scanf(" %lf", &a);
+    scanf(" %lf", &b);
     c = a + b;    
-    printf("%d + %d = %d\n", a, b, c);
+    printf("%f + %f = %.2f\n", a, b, c);
     c = a * b;
-    printf("%d * %d = %d\n", a, b, c);
+    printf("%f * %f = %.2f\n", a, b, c);
     c = a - b;
-    printf("%d - %d = %d\n", a, b, c);
+    printf("%f - %f = %.2f\n", a, b, c);
+    c = a / b;
+    printf("%f / %f = %.2f\n", a, b, c);
 
 
     return 0;
