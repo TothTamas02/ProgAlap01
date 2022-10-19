@@ -46,5 +46,19 @@ int main()
     else
         printf("Nincs prímszám a listában\n");
 
+
+    //legnagyobb négyzetszám keresés
+    int db;
+    double gyok;
+    for(int i = 0; i < 10; i++)
+    {
+        gyok = sqrt(array[i]);
+
+        if(gyok == (int)gyok)
+        {
+            db++;
+            printf("\nNegyzetszam: %d", array[i]);
+        }
+    }
     return 0;
 }
