@@ -32,6 +32,5 @@ int main()
         printf("%d. szam: %d\n", i+1,lotto[i]);
     }
         
-
     return 0;
 }
